@@ -10,7 +10,7 @@ CATEG = [
 ]
 
 
-@app.route("/categories")
+@app.route("/")
 def get_categories():
     return jsonify({"categories": CATEG})
 
