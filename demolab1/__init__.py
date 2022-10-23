@@ -2,4 +2,4 @@ from flask import Flask
 
 app = Flask(__name__)
 
-import demo.views
+import demolab1.views

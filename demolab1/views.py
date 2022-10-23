@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from demo import app
+from demolab1 import app
 
 
 CATEG = [
